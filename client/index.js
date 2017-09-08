@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.jsx';
+import MagoonNav from './components/Nav.jsx';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<MagoonNav />, document.getElementById('nav'));

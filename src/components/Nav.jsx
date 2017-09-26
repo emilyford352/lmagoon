@@ -27,13 +27,13 @@ export default class MagoonNav extends React.Component {
                     <Collapse navbar isOpen={this.state.isOpen}>
                         <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/About/">About</NavLink>
+                            <NavLink href="/#/About">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/Listen/">Listen</NavLink>
+                            <NavLink href="/#/Listen">Listen</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/Contact/">Contact Us</NavLink>
+                            <NavLink href="/#/Contact">Contact Us</NavLink>
                         </NavItem>
                         </Nav>
                     </Collapse>

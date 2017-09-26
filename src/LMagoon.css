@@ -1,3 +1,14 @@
-#main {
-    color: orange;
+#nav {
+    overflow: hidden;
+    //position: fixed;
+    top: 0;
+    color: white;
+    //background: top center url("https://havenkimmel.files.wordpress.com/2008/09/crowds2.jpg");
+}
+.nav-link,
+.navbar-brand {
+    color: white ;
+}
+#app {
+    padding: 30px;
 }

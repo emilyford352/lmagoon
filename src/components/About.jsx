@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class App extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
      <div style={{textAlign: 'center'}}>
@@ -15,6 +15,7 @@ export default class App extends React.Component {
              business. They will understand the worth of their professional attendance; create flourishing cultures
              and the profits of gaining a more positive mindset for growth.
          </p>
+         <img src="http://files1.coloribus.com/files/adsarchive/part_1865/18659505/file/road-safety-dog-600-92144.jpg" alt="Positive Perceptions"></img>
       </div>);
   }
 }

@@ -1,14 +1,47 @@
-#nav {
-    overflow: hidden;
-    //position: fixed;
-    top: 0;
-    color: white;
-    //background: top center url("https://havenkimmel.files.wordpress.com/2008/09/crowds2.jpg");
-}
-.nav-link,
-.navbar-brand {
-    color: white ;
-}
 #app {
+    width: 100%;
     padding: 30px;
+    position: fixed;
+    background-image: url("https://c2.staticflickr.com/4/3003/2677794407_3c31369287_b.jpg");
+}
+#lori-magoon {
+    border-radius: 50%;
+    width: 25%;
+    display: inline-block;
+    margin: 20px;
+}
+#home-description {
+    width: 68%;
+    display: inline-block;
+}
+#data {
+    background-color: white;
+    border: 20px solid white;
+    width: 100%;
+}
+.training-header-bubble {
+    background-color: coral;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+}
+.training-bubble-header {
+    text-align: center;
+}
+.eliminating-limitations {
+    margin-right: 50px;
+}
+.trainings-container,
+.benefit-list{
+    width: 46.2%;
+    display: inline-block;
+}
+.pull-right {
+    float: right;
+}
+.site-title {
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
 }

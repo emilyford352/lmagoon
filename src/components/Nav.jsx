@@ -21,23 +21,28 @@ export default class MagoonNav extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="faded" light toggleable>
-                    <NavbarToggler right onClick={this.toggle}/>
-                    <NavbarBrand href="/">Self Empowerment LLC</NavbarBrand>
-                    <Collapse navbar isOpen={this.state.isOpen}>
-                        <Nav className="ml-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/#/About">About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#/Listen">Listen</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#/Contact">Contact Us</NavLink>
-                        </NavItem>
-                        </Nav>
-                    </Collapse>
-                </Navbar>
+                <Nav pills color="faded">
+                    <NavItem>
+                        <NavLink href="/#/Home">Home</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#/About">About</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#/Listen">Listen</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#/Trainings">Trainings</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#/Contact">Contact Us</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <h4>
+                            <NavLink className="site-title" href="/#/Home">Self Empowerment NH, LLC</NavLink>
+                        </h4>
+                    </NavItem>
+                </Nav>
             </div>
         );
     }

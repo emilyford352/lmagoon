@@ -43,6 +43,9 @@ export default class MagoonNav extends React.Component {
                         </h4>
                     </NavItem>
                 </Nav>
+                <div>
+                    <img className="top-photo" src="https://c2.staticflickr.com/4/3003/2677794407_3c31369287_b.jpg" alt=""></img>
+                </div>
             </div>
         );
     }

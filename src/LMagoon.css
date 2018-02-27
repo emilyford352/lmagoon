@@ -2,7 +2,7 @@
     width: 100%;
     padding: 30px;
     position: fixed;
-    background-image: url("https://c2.staticflickr.com/4/3003/2677794407_3c31369287_b.jpg");
+    background-color: lightsalmon;
 }
 #lori-magoon {
     border-radius: 50%;
@@ -44,4 +44,8 @@
     position: absolute;
     right: 0;
     margin-right: 10px;
+}
+.top-photo {
+    height: 30px;
+    width: 100%;
 }
